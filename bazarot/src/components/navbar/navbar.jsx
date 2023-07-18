@@ -1,11 +1,13 @@
+'use client'
 import style from './navbar.module.css';
 import SearchBar from '../searchbar/searchbar';
-import getLinks from '../links/links';
+import Link from 'next/link';
+import getLinks from '../links/page';
 
 const NavBar = () =>{
     const links = getLinks();
     return(
-        <nav>
+        <nav className={style.navcontainer}>
             <ul className={style.navul}>
                 {links.map(({label, route}) =>(
                     <li key={route}>
@@ -15,7 +17,7 @@ const NavBar = () =>{
                     </li>
                 ))}
             </ul>
-            <SearchBar/>
+            <SearchBar />
         </nav>
     )
 }
