@@ -1,6 +1,6 @@
 import style from './landingbar.module.css';
 import Image from 'next/image'
-
+//Este componente muestra el navbar del landing
 const LandingBar = () =>{
     const img='/Media/logo.png'
     return(

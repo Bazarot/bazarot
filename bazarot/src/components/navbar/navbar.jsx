@@ -3,7 +3,7 @@ import style from './navbar.module.css';
 import SearchBar from '../searchbar/searchbar';
 import Link from 'next/link';
 import getLinks from '../links/page';
-
+//Este componente renderiza del Navbar de todos los endpoins (menos del landing)
 const NavBar = () =>{
     const links = getLinks();
     return(

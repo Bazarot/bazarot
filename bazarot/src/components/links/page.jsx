@@ -1,6 +1,6 @@
 'use client'
 import { usePathname } from 'next/navigation';
-
+//Este componente realiza la selección de los botones de la navbar según el endpoint
 const getLinks = () =>{
     const pathname = usePathname();
     if (pathname === '/') {
