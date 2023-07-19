@@ -1,0 +1,38 @@
+.navcontainer{
+    position: fixed;
+    width: 100%;
+    height: 7rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    background: linear-gradient(to left, #f1580c, #000000, #000000);
+    margin-top: 0px;
+}
+.navul{
+    width: 95%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    /* justify-items: center; */
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navul li{
+    color: #d8c690;
+    width: 10%;
+}
+.navul li:hover{
+    font-size: 125%;
+    color: #CBB26A;
+}
+.navlogo{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    align-self: flex-start;
+}
